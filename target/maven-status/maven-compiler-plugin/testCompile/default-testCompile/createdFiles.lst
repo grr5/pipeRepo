@@ -1,0 +1,7 @@
+stepDefinitions\MyStepDefs.class
+testRunners\serviceCategoryRunner.class
+stepDefinitions\CrossBrowserTests.class
+stepDefinitions\Hooks.class
+stepDefinitions\TestRunner.class
+stepDefinitions\ParallelTests.class
+stepDefinitions\RestRunner1.class

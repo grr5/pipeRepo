@@ -1,0 +1,140 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 3,
+            "value": "#  Background:"
+          },
+          {
+            "line": 4,
+            "value": "#    Given admin is on login page"
+          },
+          {
+            "line": 5,
+            "value": "#    When admin enters email as \"email\", password as \"password\""
+          },
+          {
+            "line": 6,
+            "value": "##    When admin enters email as \"email_test\", password as \"password_test\""
+          },
+          {
+            "line": 7,
+            "value": "#    And admin clicks on log in button"
+          },
+          {
+            "line": 8,
+            "value": "#    Then admin should login and see dashboard page"
+          }
+        ],
+        "before": [
+          {
+            "result": {
+              "duration": 8495255460,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Admin can login successfully with valid details",
+        "description": "",
+        "id": "verify-admin-can-see-the-list-of-available-users-and-can-activate-or-de-activate;admin-can-login-successfully-with-valid-details",
+        "after": [
+          {
+            "result": {
+              "duration": 6566694,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 228589552,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "admin is on login page",
+            "match": {
+              "location": "MyStepDefs.admin_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 368322515,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "admin enters email as \"email\", password as \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "email",
+                  "offset": 23
+                },
+                {
+                  "val": "password",
+                  "offset": 44
+                }
+              ],
+              "location": "MyStepDefs.admin_enters_email_as_password_as(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7363818615,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 15,
+                "value": "#    When admin enters email as \"email_test\", password as \"password_test\""
+              }
+            ],
+            "line": 16,
+            "name": "admin clicks on log in button",
+            "match": {
+              "location": "MyStepDefs.admin_clicks_on_log_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 249209528,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "admin should login and see dashboard page",
+            "match": {
+              "location": "MyStepDefs.admin_should_login_and_see_dashboard_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@login"
+          }
+        ]
+      }
+    ],
+    "name": "Verify admin can see the list of available users and can activate or de-activate",
+    "description": "",
+    "id": "verify-admin-can-see-the-list-of-available-users-and-can-activate-or-de-activate",
+    "keyword": "Feature",
+    "uri": "sanity.feature"
+  }
+]
